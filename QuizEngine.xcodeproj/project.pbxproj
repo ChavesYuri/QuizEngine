@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		997C4FA428BBC3BC00F3190E /* QuizEngineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FA328BBC3BC00F3190E /* QuizEngineApp.swift */; };
-		997C4FA628BBC3BC00F3190E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FA528BBC3BC00F3190E /* ContentView.swift */; };
+		997C4FA628BBC3BC00F3190E /* SingleAnswerQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */; };
 		997C4FA828BBC3BF00F3190E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997C4FA728BBC3BF00F3190E /* Assets.xcassets */; };
 		997C4FAB28BBC3BF00F3190E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997C4FAA28BBC3BF00F3190E /* Preview Assets.xcassets */; };
 		997C4FB528BBC3BF00F3190E /* QuizEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FB428BBC3BF00F3190E /* QuizEngineTests.swift */; };
 		997C4FBF28BBC3BF00F3190E /* QuizEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FBE28BBC3BF00F3190E /* QuizEngineUITests.swift */; };
 		997C4FC128BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FC028BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift */; };
+		997C4FCE28BBCA6A00F3190E /* QuizHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		997C4FA028BBC3BC00F3190E /* QuizEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997C4FA328BBC3BC00F3190E /* QuizEngineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineApp.swift; sourceTree = "<group>"; };
-		997C4FA528BBC3BC00F3190E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnswerQuestion.swift; sourceTree = "<group>"; };
 		997C4FA728BBC3BF00F3190E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997C4FAA28BBC3BF00F3190E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		997C4FB028BBC3BF00F3190E /* QuizEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		997C4FBA28BBC3BF00F3190E /* QuizEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997C4FBE28BBC3BF00F3190E /* QuizEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineUITests.swift; sourceTree = "<group>"; };
 		997C4FC028BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				997C4FA328BBC3BC00F3190E /* QuizEngineApp.swift */,
-				997C4FA528BBC3BC00F3190E /* ContentView.swift */,
+				997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */,
 				997C4FA728BBC3BF00F3190E /* Assets.xcassets */,
 				997C4FA928BBC3BF00F3190E /* Preview Content */,
+				997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */,
 			);
 			path = QuizEngine;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997C4FA628BBC3BC00F3190E /* ContentView.swift in Sources */,
+				997C4FCE28BBCA6A00F3190E /* QuizHeaderView.swift in Sources */,
+				997C4FA628BBC3BC00F3190E /* SingleAnswerQuestion.swift in Sources */,
 				997C4FA428BBC3BC00F3190E /* QuizEngineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

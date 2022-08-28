@@ -8,7 +8,7 @@ struct SingleAnswerQuestion: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
-            QuizHeaderView(title: title, question: question)
+            QuestionHeader(title: title, question: question)
             ForEach(options, id: \.self) { option in
                 Button(action: {}) {
                     HStack {

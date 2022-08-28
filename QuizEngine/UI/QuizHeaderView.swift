@@ -1,5 +1,5 @@
 import SwiftUI
-struct QuizHeaderView: View {
+struct QuestionHeader: View {
     let title: String
     let question: String
 
@@ -18,10 +18,10 @@ struct QuizHeaderView: View {
     }
 }
 
-struct QuizHeaderView_Previews: PreviewProvider {
+struct QuestionHeader_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            QuizHeaderView(
+            QuestionHeader(
                 title: "1 of 3",
                 question: "Who will be the president of Brazil?"
             )

@@ -96,11 +96,10 @@
 		997C4FA228BBC3BC00F3190E /* QuizEngine */ = {
 			isa = PBXGroup;
 			children = (
+				99A1DC1228BC1AA2006A13A6 /* UI */,
 				997C4FA328BBC3BC00F3190E /* QuizEngineApp.swift */,
-				997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */,
 				997C4FA728BBC3BF00F3190E /* Assets.xcassets */,
 				997C4FA928BBC3BF00F3190E /* Preview Content */,
-				997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */,
 			);
 			path = QuizEngine;
 			sourceTree = "<group>";
@@ -128,6 +127,15 @@
 				997C4FC028BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift */,
 			);
 			path = QuizEngineUITests;
+			sourceTree = "<group>";
+		};
+		99A1DC1228BC1AA2006A13A6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */,
+				997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

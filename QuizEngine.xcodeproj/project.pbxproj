@@ -15,6 +15,7 @@
 		997C4FBF28BBC3BF00F3190E /* QuizEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FBE28BBC3BF00F3190E /* QuizEngineUITests.swift */; };
 		997C4FC128BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FC028BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift */; };
 		997C4FCE28BBCA6A00F3190E /* QuizHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */; };
+		99A1DC1428BC1BE5006A13A6 /* SingleTextSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1DC1328BC1BE5006A13A6 /* SingleTextSelectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		997C4FBE28BBC3BF00F3190E /* QuizEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineUITests.swift; sourceTree = "<group>"; };
 		997C4FC028BBC3BF00F3190E /* QuizEngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHeaderView.swift; sourceTree = "<group>"; };
+		99A1DC1328BC1BE5006A13A6 /* SingleTextSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextSelectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				997C4FA528BBC3BC00F3190E /* SingleAnswerQuestion.swift */,
 				997C4FCD28BBCA6A00F3190E /* QuizHeaderView.swift */,
+				99A1DC1328BC1BE5006A13A6 /* SingleTextSelectionCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				997C4FCE28BBCA6A00F3190E /* QuizHeaderView.swift in Sources */,
+				99A1DC1428BC1BE5006A13A6 /* SingleTextSelectionCell.swift in Sources */,
 				997C4FA628BBC3BC00F3190E /* SingleAnswerQuestion.swift in Sources */,
 				997C4FA428BBC3BC00F3190E /* QuizEngineApp.swift in Sources */,
 			);
